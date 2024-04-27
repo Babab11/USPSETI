@@ -1,0 +1,59 @@
+/* Basic styles and reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f4; /* Fallback color */
+    background-image: url('https://www.google.com/imgres?q=usps%20image&imgurl=https%3A%2F%2Fmma.prnewswire.com%2Fmedia%2F2150683%2FUSPS_Logo.jpg%3Fp%3Dfacebook&imgrefurl=https%3A%2F%2Fwww.prnewswire.com%2Fnews-releases%2Fintroducing-usps-ground-advantage-301873251.html&docid=80-r5J3jK9rvkM&tbnid=X0bGjEniMADhKM&vet=12ahUKEwiL5aj0_d2FAxUqEVkFHdBNBlsQM3oECGoQAA..i&w=2700&h=1414&hcb=2&ved=2ahUKEwiL5aj0_d2FAxUqEVkFHdBNBlsQM3oECGoQAA'); /* Direct link to image */
+    background-size: cover; /* Cover the entire area of the element */
+    background-position: center; /* Center the background image */
+    padding: 20px;
+    color: #333;
+}
+
+/* Headings */
+h1, h2 {
+    color: #333;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Center align the navigation items */
+}
+
+nav ul li {
+    display: inline; /* Display nav items inline */
+    margin-right: 10px;
+}
+
+/* Input and button styles */
+input[type="text"], input[type="password"], button {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc; /* Add border to inputs and buttons */
+    border-radius: 4px; /* Rounded corners for inputs and buttons */
+}
+
+button {
+    background-color: #5c67f2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4a54e1; /* Darker shade for hover */
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    font-size: 0.875em; /* Slightly smaller font size for error messages */
+}
